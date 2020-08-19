@@ -9,7 +9,9 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="./style.css">
-
+        <script src="qrcode.min.js"></script>
+        <script src="jquery.js"></script>
+        <script src="qr-gen.js"></script>
     </head>
     <body>
         
@@ -37,6 +39,19 @@
     <div class="container">
       <h1>Instant QR Code Generator</h1>
       <p></p>
+
+        <div class="qr-form">
+            <form>
+                <input id="qrinput" type="text" placeholder="" />
+                <button class="generate-button" id="generate">Generate</button>
+            </form>
+        </div>
+
+        <div class="qr-image" id="qrcode"></div>
+
+
+
+
       <p class="signature">Made with ♥ by <a href="https://rohanpls.com/">Rohan Shahshankar</a></p>
       </div>
     </section>
@@ -66,8 +81,6 @@
     </section>
 
     <!-- scripts -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
     <script src="./scripts.js"></script>
     
 
