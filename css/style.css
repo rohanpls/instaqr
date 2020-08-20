@@ -17,14 +17,6 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-/* QR CSS */
-
-#generate-button {
-  background-color: aqua;
-}
-
-/* QR CSS finish */
-
 
 section {
   height: 100vh;

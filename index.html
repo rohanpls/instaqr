@@ -9,6 +9,7 @@
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/custom.css">
     </head>
     <body>
         
@@ -35,17 +36,17 @@
     <section id="generator">
     <div class="container">
       <h1>Instant QR Code Generator</h1>
-      <p></p>
+     
       
       <div class="qr-form">
         <form>
-            <input id="qrinput" type="text" placeholder="" />
-            <button class="generate-button" id="generate">Generate</button>
+            <input id="qrinput" type="text" placeholder="Enter URL" />
+            <br>
+            <button class="btn-hover" id="generate">Generate</button>
         </form>
     </div>
-
+    <p>QR will be generated below:</p>
     <center><div class="qr-image" id="qrcode"></div></center>
-
 
 
 
