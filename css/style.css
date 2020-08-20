@@ -9,6 +9,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
+  text-align:center;
   color: #000;
   font-weight: 100;
   margin-top:3vh;
@@ -16,8 +17,18 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+/* QR CSS */
+
+#generate-button {
+  background-color: aqua;
+}
+
+/* QR CSS finish */
+
+
 section {
   height: 100vh;
+  padding-top:2.5rem;
 }
 section#about {
   text-align: center;
