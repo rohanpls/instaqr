@@ -199,6 +199,7 @@ header nav ul li a {
     padding: .5em 0;
   }
 }
+
 .hide-nav {
   transform: translateY(-120% !important);
   -webkit-transform: translateY(-120%) !important;
