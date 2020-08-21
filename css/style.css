@@ -17,16 +17,17 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+.tleft {
+  text-align:left;
+}
 
 section {
   height: 100vh;
   padding-top:2.5rem;
 }
-section#about {
-  text-align: center;
-}
-section h1 {
-  text-align: center;
+
+.shorter {
+  height:50vh ;
 }
 
 .container {
