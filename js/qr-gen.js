@@ -6,11 +6,9 @@ function manipulate() {
   var qrgen = $("#qrinput").val();
 
     if (qrgen) {
-        var origstr = qrgen;
-
-        qrcode.makeCode(origstr);
+        qrcode.makeCode(qrgen);
     } else {
-        alert("Please fill all blanks.");
+        alert("Please enter the value you wish to encode");
     }
 }
 
